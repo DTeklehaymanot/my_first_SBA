@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../Styles/contact_us.css" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        flex-grow: 1;
+      }
+      header {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+      }
+      h1#store_name > a {
+        text-decoration: none;
+      }
+      nav > ul {
+        display: flex;
+        justify-content: flex-end;
+        /* flex-wrap: wrap; */
+      }
+      ul.nav > li {
+        list-style: none;
+        border-right: 2px solid black;
+      }
+      ul.nav > li:last-child {
+        border-right: none;
+      }
+      ul.nav > li > * {
+        text-decoration: none;
+        color: rgb(120, 8, 8);
+        padding: 10px;
+        margin: 5px;
+      }
+      ul.nav > li > a:hover {
+        border-bottom: 2px solid #087ca7;
+      }
+      a.store_name {
+        text-decoration: none;
+        color: black;
+      }
+      div.header {
+        display: flex;
+      }
+      #store_logo {
+        width: 90px;
+        border-radius: 40%;
+      }
+      .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../Images/hero.jpg);
+        color: #fff;
+        opacity: 0.8;
+        width: 100vw;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="../Images/shelf.png" alt="store logo" id="store_logo" />
+        <h1 class="store_name">
+          <a href="index.html" class="store_name">The Shelf</a>
+        </h1>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sign_in.html">SignIn</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>The Future Largest Bookstore</h1>
+        <p>There Is No Friend As Loyal As Book!</p>
+      </div>
+    </header>
+    <main></main>
+  </body>
+</html>

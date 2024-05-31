@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+div{
+    width: 27;
+    display: block;
+    padding: 10px;
+    background-color: #087CA7;
+    border-radius: 20px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form > * {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: medium;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: bisque;
+}
+button:hover {
+    opacity: 0.8;
+}
+.profile_icon {
+    width:40px;
+    height: auto;
+}
+a {
+    color: #fff;
+    padding: 10px;
+}
